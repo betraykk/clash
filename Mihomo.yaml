@@ -87,7 +87,7 @@ proxy-groups:
       - 全球直连
       - 台湾节点
       - 香港节点
-   - name: Google
+  - name: Google
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
     type: select
     proxies:
@@ -100,7 +100,7 @@ proxy-groups:
       - 日本节点
       - 韩国节点
       - 手动切换
-   - name: 微软服务
+  - name: 微软服务
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
     type: select
     proxies:
@@ -476,7 +476,7 @@ rules:
   - "RULE-SET,Bahamut,奈飞视频"
   - "RULE-SET,BilibiliHMT,Bilibili"
   - "RULE-SET,Bilibili,Bilibili"
-  - "RULE-SET,ChinaMedia,国内媒体"
+  - "RULE-SET,ChinaMedia,全球直连"
   - "RULE-SET,ProxyMedia,奈飞视频"
   - "RULE-SET,ProxyGFWlist,节点选择"
   - "RULE-SET,ChinaDomain,全球直连"
