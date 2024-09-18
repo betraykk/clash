@@ -81,7 +81,7 @@ proxy-groups:
       - 手动切换
       - DIRECT
   - name: Bilibili
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/bilibili.png
     type: select
     proxies:
       - 全球直连
