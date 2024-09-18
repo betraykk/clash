@@ -114,7 +114,7 @@ proxy-groups:
       - 韩国节点
       - 手动切换
   - name: 苹果服务
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+    icon: https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/apple(1).png
     type: select
     proxies:
       - DIRECT
