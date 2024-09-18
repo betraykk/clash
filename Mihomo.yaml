@@ -161,7 +161,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自动选择
-    - name: 广告拦截
+  - name: 广告拦截
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
     type: select
     proxies:
