@@ -80,7 +80,7 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
-   - name: 哔哩哔哩
+   - name: Bilibili
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
     type: select
     proxies:
@@ -474,8 +474,8 @@ rules:
   - "RULE-SET,YouTube,YouTube"
   - "RULE-SET,Netflix,奈飞视频"
   - "RULE-SET,Bahamut,奈飞视频"
-  - "RULE-SET,BilibiliHMT,哔哩哔哩"
-  - "RULE-SET,Bilibili,哔哩哔哩"
+  - "RULE-SET,BilibiliHMT,Bilibili"
+  - "RULE-SET,Bilibili,Bilibili"
   - "RULE-SET,ChinaMedia,国内媒体"
   - "RULE-SET,ProxyMedia,奈飞视频"
   - "RULE-SET,ProxyGFWlist,节点选择"
