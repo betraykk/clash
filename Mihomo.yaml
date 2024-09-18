@@ -140,7 +140,7 @@ proxy-groups:
       - 韩国节点
       - 手动切换
   - name: Spotify
-    icon: https:\/\/raw.githubusercontent.com\/lige47\/QuanX-icon-rule\/main\/icon\/spotify(green).png
+    icon: https://raw.githubusercontent.com\/lige47\/QuanX-icon-rule\/main\/icon\/spotify(green).png
     type: select
     include-all: true
     filter: (?i)网易|音乐|NetEase|Music
