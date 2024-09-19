@@ -327,7 +327,7 @@ rule-providers:
     type: http
   Spotify:
     url: https://mirror.ghproxy.com/https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Loon/Spotify/Spotify.list
-    path: ./ruleset/NetEaseMusic.list
+    path: ./ruleset/Spotify.list
     behavior: classical
     interval: 86400
     format: text
