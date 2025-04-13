@@ -109,7 +109,7 @@ rule-providers:
   microsoft: {<<: *c, path: ./rules/microsoft.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Microsoft/Microsoft.list}
   YouTube: {<<: *c, path: ./rules/YouTube.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/YouTube/YouTube.list}
   Google: {<<: *c, path: ./rules/Google.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Google/Google.list}
-  Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/mihomo/Rules/Telegram.listTelegram/Telegram.list}
+  Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Telegram/Telegram.list}
   github: {<<: *c, path: ./rules/github.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GitHub/GitHub.list}
   Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitter/Twitter.list}
   Steam: {<<: *c, path: ./rules/Steam.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Battle/Battle.list}
