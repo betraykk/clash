@@ -102,13 +102,14 @@ proxy-groups:
   - {name: 台湾节点, <<: *url-test, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Taiwan.png}
 
 rule-providers:
-  AD: {<<: *c, path: ./rules/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list}
-  Apple: {<<: *c, path: ./rules/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
-  YouTube: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
-  Google: {<<: *c, path: ./rules/Google.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
-  Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list}
-  Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list}
-  Steam: {<<: *c, path: ./rules/Steam.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list}
+  AD: {<<: *c, path: ./rules/AD.list, url: https://adrules.top/adrules.list}
+  Apple: {<<: *c, path: ./rules/Apple.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppStore/AppStore.list}
+  Apple: {<<: *c, path: ./rules/Apple.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleID/AppleID.list}
+  YouTube: {<<: *c, path: ./rules/YouTube.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/YouTube/YouTube.list}
+  Google: {<<: *c, path: ./rules/Google.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Google/Google.list}
+  Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Telegram/Telegram.list}
+  Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitter/Twitter.list}
+  Steam: {<<: *c, path: ./rules/Steam.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Battle/Battle.list}
   Epic: {<<: *c, path: ./rules/Epic.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Epic.list}
   AI: {<<: *c, path: ./rules/AI.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/AI.list}
   Emby: {<<: *c, path: ./rules/Emby.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list}
