@@ -150,6 +150,6 @@ rules:
   - RULE-SET,microsoft,微软服务
   - GEOSITE,gfw,兜底分流
   - RULE-SET,China,DIRECT
-  - GEOIP,lan,DIRECT
+  - GEOIP,private,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流
