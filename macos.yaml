@@ -134,6 +134,7 @@ rules:
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Google,Google
   - RULE-SET,Telegram,Telegram
+  - RULE-SET,github,Telegram
   - RULE-SET,Twitter,Telegram
   - RULE-SET,Steam,暴雪游戏
   - RULE-SET,AppleNews,暴雪游戏
@@ -146,7 +147,6 @@ rules:
   - RULE-SET,PrimeVideo,Netflix
   - RULE-SET,HBO,Netflix
   - RULE-SET,onedrive,微软服务
-  - RULE-SET,github,微软服务
   - RULE-SET,microsoft,微软服务
   - GEOSITE,gfw,兜底分流
   - RULE-SET,China,DIRECT
