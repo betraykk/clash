@@ -110,8 +110,8 @@ rule-providers:
   Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Telegram/Telegram.list}
   Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitter/Twitter.list}
   Steam: {<<: *c, path: ./rules/Steam.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Battle/Battle.list}
-  Blizzard: {<<: *c, path: ./rules/Epic.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Blizzard/Blizzard.list}
-  AppleNews: {<<: *c, path: ./rules/Epic.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleNews/AppleNews.list}
+  Blizzard: {<<: *c, path: ./rules/Blizzard.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Blizzard/Blizzard.list}
+  AppleNews: {<<: *c, path: ./rules/AppleNews.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleNews/AppleNews.list}
   AI: {<<: *c, path: ./rules/AI.list,  url: https://raw.githubusercontent.com/betraykk/Surge/refs/heads/main/Rules/AI.list}
   Emby: {<<: *c, path: ./rules/Emby.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Loon/Emby/Emby.list}
   Spotify: {<<: *c, path: ./rules/Spotify.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Spotify/Spotify.list}
