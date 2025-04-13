@@ -110,6 +110,7 @@ rule-providers:
   Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Telegram/Telegram.list}
   Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitter/Twitter.list}
   Steam: {<<: *c, path: ./rules/Steam.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Battle/Battle.list}
+  Blizzard: {<<: *c, path: ./rules/Epic.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Blizzard/Blizzard.list}
   AppleNews: {<<: *c, path: ./rules/Epic.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleNews/AppleNews.list}
   AI: {<<: *c, path: ./rules/AI.list,  url: https://raw.githubusercontent.com/betraykk/Surge/refs/heads/main/Rules/AI.list}
   Emby: {<<: *c, path: ./rules/Emby.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Loon/Emby/Emby.list}
@@ -120,6 +121,7 @@ rule-providers:
   PrimeVideo: {<<: *c, path: ./rules/PrimeVideo.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PrimeVideo/PrimeVideo.list}
   HBO: {<<: *c, path: ./rules/HBO.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/HBO.list}
   China: {<<: *c, path: ./rules/China.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list}
+  
 
 rules:
   - RULE-SET,AD,广告拦截
@@ -132,6 +134,7 @@ rules:
   - RULE-SET,Twitter,Telegram
   - RULE-SET,Steam,暴雪游戏
   - RULE-SET,AppleNews,暴雪游戏
+  - RULE-SET,Blizzard,暴雪游戏
   - RULE-SET,Emby,Netflix
   - RULE-SET,Spotify,Spotify
   - RULE-SET,Bahamut,Netflix
