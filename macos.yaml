@@ -105,9 +105,12 @@ rule-providers:
   AD: {<<: *c, path: ./rules/AD.list, url: https://adrules.top/adrules.list}
   Apple: {<<: *c, path: ./rules/Apple.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppStore/AppStore.list}
   AppleID: {<<: *c, path: ./rules/Apple.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleID/AppleID.list}
+  onedrive: {<<: *c, path: ./rules/onedrive.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/OneDrive/OneDrive.list}
+  microsoft: {<<: *c, path: ./rules/microsoft.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Microsoft/Microsoft.list}
   YouTube: {<<: *c, path: ./rules/YouTube.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/YouTube/YouTube.list}
   Google: {<<: *c, path: ./rules/Google.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Google/Google.list}
   Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Telegram/Telegram.list}
+  github: {<<: *c, github: ./rules/github.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GitHub/GitHub.list
   Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitter/Twitter.list}
   Steam: {<<: *c, path: ./rules/Steam.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Battle/Battle.list}
   Blizzard: {<<: *c, path: ./rules/Blizzard.list,  url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Blizzard/Blizzard.list}
@@ -142,9 +145,9 @@ rules:
   - RULE-SET,Disney,Netflix
   - RULE-SET,PrimeVideo,Netflix
   - RULE-SET,HBO,Netflix
-  - GEOSITE,onedrive,微软服务
-  - GEOSITE,github,微软服务
-  - GEOSITE,microsoft,微软服务
+  - RULE-SET,onedrive,微软服务
+  - RULE-SET,github,微软服务
+  - RULE-SET,microsoft,微软服务
   - GEOSITE,gfw,兜底分流
   - RULE-SET,China,DIRECT
   - GEOIP,lan,DIRECT
