@@ -117,7 +117,7 @@ rule-providers:
   Netflix: {<<: *c, path: ./rules/Netflix.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Netflix.list}
   Disney: {<<: *c, path: ./rules/Disney.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Disney.list}
   PrimeVideo: {<<: *c, path: ./rules/PrimeVideo.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/PrimeVideo.list}
-  HBO: {<<: *c, path: ./rules/HBO.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/HBO.list}
+  HBO: {<<: *c, path: ./rules/HBO.list,  url: https://raw.githubusercontent.com/Repcz/Tool/refs/heads/X/Clash/Rules/TikTok.list}
   China: {<<: *c, path: ./rules/China.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list}
 
 rules:
