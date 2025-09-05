@@ -86,23 +86,23 @@ proxy-groups:
 
 rule-providers:
   Direct: {<<: *c, path: ./rules/Direct.list, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Direct.list}
-  AD: {<<: *c, path: ./rules/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list}
+  AD: {<<: *c, path: ./rules/AD.list, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Reject.list}
   AppleCN: {<<: *c, path: ./rules/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AppleCN.list}
   AppleProxy: {<<: *c, path: ./rules/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AppleServers.list}
   Github: {<<: *c, path: ./rules/Github.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Github.list}
   OneDrive: {<<: *c, path: ./rules/OneDrive.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/OneDrive.list}
   Microsoft: {<<: *c, path: ./rules/Microsoft.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Microsoft.list}
-  YouTube: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
-  Google: {<<: *c, path: ./rules/Google.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
-  Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list}
-  Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list}
-  Steam: {<<: *c, path: ./rules/Steam.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list}
-  AI: {<<: *c, path: ./rules/AI.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/AI.list}
+  YouTube: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/YouTube.list}
+  Google: {<<: *c, path: ./rules/Google.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Google.list}
+  Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Telegram.list}
+  Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Twitter.list}
+  Steam: {<<: *c, path: ./rules/Steam.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Steam.list}
+  AI: {<<: *c, path: ./rules/AI.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/mihomo/AI.list}
   Emby: {<<: *c, path: ./rules/Emby.list,  url: https://raw.githubusercontent.com/betraykk/Surge/refs/heads/main/Rules/Emby.list}
-  Spotify: {<<: *c, path: ./rules/Spotify.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Spotify.list}
+  Spotify: {<<: *c, path: ./rules/Spotify.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Spotify.list}
   Proxy: {<<: *c, path: ./rules/Proxy.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Proxy.list}
-  Netflix: {<<: *c, path: ./rules/Netflix.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Netflix.list}
-  Disney: {<<: *c, path: ./rules/Disney.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Disney.list}
+  Netflix: {<<: *c, path: ./rules/Netflix.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Netflix.list}
+  Disney: {<<: *c, path: ./rules/Disney.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Disney.list}
   TikTok: {<<: *c, path: ./rules/TikTok.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/TikTok.list}
   CDN: {<<: *c, path: ./rules/CDN.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/CDN.list}
   
