@@ -13,13 +13,13 @@
 
 p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://1.1.1.1/generate_204, interval: 1800, timeout: 5000}}
 proxy-providers:
- # Subscribe: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
+  Subscribe: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
     url: https://liangxin.xyz/api/v1/liangxin?OwO=43c0ad891397e72f844ad78a8b3825ac
     <<: *p
     #override: # 修改节点前后缀时，需移除前方的 "#" 符号
       #additional-prefix: "节点前缀"
       #additional-suffix: "节点后缀"
-  Subscribe2: {url: https://liangxin.xyz/api/v1/liangxin?OwO=43c0ad891397e72f844ad78a8b3825ac, <<: *p}
+  #Subscribe2: {url: http://your-service-provider, <<: *p}
   #Subscribe3: {url: http://your-service-provider, <<: *p}
   #Subscribe4: {url: http://your-service-provider, <<: *p}
 
