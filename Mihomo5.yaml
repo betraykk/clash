@@ -95,19 +95,16 @@ dns:
 NodeParam: &NodeParam {type: http, interval: 3600, health-check: {enable: true, url: 'http://www.google.com/blank.html', interval: 6}}
 
 # 锚点 - 节点订阅
-proxy-providers: 
-  机场名称1:
-    url: '机场1的订阅URL'
-    <<: *NodeParam
-    path: './proxy_providers/机场名称1.yaml'
-    override:
-      additional-prefix: "[机场名称1] " # 为订阅节点添加机场名称前缀
-  机场名称2:
-    url: '机场2的订阅URL'
-    <<: *NodeParam
-    path: './proxy_providers/机场名称2.yaml'
-    override:
-      additional-prefix: "[机场名称2] " # 为订阅节点添加机场名称前缀
+proxy-providers:
+  Subscribe: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
+    url: https://liangxin.xyz/api/v1/liangxin?OwO=43c0ad891397e72f844ad78a8b3825ac
+    <<: *p
+    #override: # 修改节点前后缀时，需移除前方的 "#" 符号
+      #additional-prefix: "节点前缀"
+      #additional-suffix: "节点后缀"
+  #Subscribe2: {url: http://your-service-provider, <<: *p}
+  #Subscribe3: {url: http://your-service-provider, <<: *p}
+  #Subscribe4: {url: http://your-service-provider, <<: *p}
 
 # 锚点 - 节点筛选组
 FilterHK: &FilterHK '^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
