@@ -291,11 +291,6 @@ rule-providers:
     path: './rules/TikTok.list'
     url: 'https://github.com/Repcz/Tool/raw/X/mihomo/Rules/TikTok.list'
 
-  Microsoft:
-    <<: *RuleProviders
-    path: './rules/Microsoft.yaml'
-    url: 'https://rule.kelee.one/Clash/Microsoft.yaml'
-
   CDN:
     <<: *RuleProviders
     path: './rules/CDN.list'
