@@ -104,7 +104,6 @@ rule-providers:
   CDN: {<<:*c, path: ./rules/CDN.list, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/CDN.list}
   Proxy: {<<:*c, path: ./rules/Proxy.list, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Proxy.list}
   Direct: {<<:*c, path: ./rules/Direct.list, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Direct.list}
-  Lan: {<<: *c, path: ./rules/Lan.list, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Lan.list}
 
 rules:
   - RULE-SET,AD,广告拦截
@@ -127,6 +126,6 @@ rules:
   - RULE-SET,CDN,兜底分流
   - RULE-SET,Proxy,兜底分流
   - RULE-SET,Direct,DIRECT
-  - RULE-SET,Lan,DIRECT
+  - GEOIP,lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流
