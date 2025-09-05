@@ -257,7 +257,7 @@ rule-providers:
   AI:
     <<: *RuleProviders
     path: './rules/AI.list'
-    url: 'https://https://github.com/Repcz/Tool/raw/X/Clash/mihomo/AI.list'
+    url: 'https://raw.githubusercontent.com/Repcz/Tool/X/mihomo/Rules/AI.list'
 
   Emby:
     <<: *RuleProviders
