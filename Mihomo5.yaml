@@ -148,7 +148,7 @@ rule-providers:
 
   LAN:
     <<: *RuleProviders
-    path: './rules/Lan.list'
+    path: './rules/LAN.list'
     url: 'https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Lan.list'
 
   AD:
@@ -269,6 +269,6 @@ rules:
   - RULE-SET, CDN, 兜底分流
   - RULE-SET, Proxy, 兜底分流
   - RULE-SET, Direct, DIRECT
-  - RULE-SET, Lan, DIRECT
+  - RULE-SET, LAN, DIRECT
   - GEOIP, CN, DIRECT
   - MATCH, 兜底分流
