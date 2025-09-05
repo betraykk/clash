@@ -53,7 +53,7 @@ dns:
   enhanced-mode: fake-ip
   listen: :1053
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: ['*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
+  fake-ip-filter: [geoip: true, geoip-code: CN, geosite: [gfw], '*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
   nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114, 8.8.8.8, 1.1.1.1]
 
 # 锚点参数
