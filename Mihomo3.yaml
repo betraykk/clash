@@ -111,13 +111,11 @@ rule-providers:
   Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Telegram.list}
   Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Twitter.list}
   Steam: {<<: *c, path: ./rules/Steam.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Steam.list}
-  Epic: {<<: *c, path: ./rules/Epic.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Epic.list}
   AI: {<<: *c, path: ./rules/AI.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AI.list}
   Emby: {<<: *c, path: ./rules/Emby.list,  url: https://raw.githubusercontent.com/betraykk/Surge/refs/heads/main/Rules/Emby.list}
   Spotify: {<<: *c, path: ./rules/Spotify.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Spotify.list}
   Netflix: {<<: *c, path: ./rules/Netflix.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Netflix.list}
   Disney: {<<: *c, path: ./rules/Disney.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Disney.list}
-  PrimeVideo: {<<: *c, path: ./rules/PrimeVideo.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/PrimeVideo.list}
   TikTok: {<<:*c, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/TikTok.list}
   CDN: {<<:*c, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/CDN.list}
   Proxy: {<<:*c, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Proxy.list}
@@ -126,22 +124,20 @@ rule-providers:
 
 rules:
   - RULE-SET,AD,广告拦截
-  - RULE-SET,AI,OpenAI
+  - RULE-SET,Apple,苹果服务
+  - RULE-SET,YouTube,YouTube
   - RULE-SET,Github,微软服务
   - RULE-SET,OneDrive,微软服务
   - RULE-SET,Microsoft,微软服务
-  - RULE-SET,Apple,苹果服务
-  - RULE-SET,YouTube,YouTube
   - RULE-SET,Google,Google
   - RULE-SET,Telegram,Telegram
   - RULE-SET,Twitter,Telegram
   - RULE-SET,Steam,暴雪游戏
-  - RULE-SET,Epic,暴雪游戏
+  - RULE-SET,AI,OpenAI
   - RULE-SET,Emby,Netflix
   - RULE-SET,Spotify,Spotify
   - RULE-SET,Netflix,Netflix
   - RULE-SET,Disney,Netflix
-  - RULE-SET,PrimeVideo,Netflix
   - RULE-SET,TikTok,Netflix
   - RULE-SET,CDN,兜底分流
   - RULE-SET,Proxy,兜底分流
