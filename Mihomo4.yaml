@@ -97,7 +97,7 @@ rule-providers:
   Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Telegram.list}
   Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Twitter.list}
   Steam: {<<: *c, path: ./rules/Steam.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Steam.list}
-  AI: {<<: *c, path: ./rules/AI.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/mihomo/AI.list}
+  AI: {<<: *c, path: ./rules/AI.list,  url: https://raw.githubusercontent.com/Repcz/Tool/X/mihomo/Rules/AI.list}
   Emby: {<<: *c, path: ./rules/Emby.list,  url: https://raw.githubusercontent.com/betraykk/Surge/refs/heads/main/Rules/Emby.list}
   Spotify: {<<: *c, path: ./rules/Spotify.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Spotify.list}
   Proxy: {<<: *c, path: ./rules/Proxy.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Proxy.list}
