@@ -261,7 +261,7 @@ rules:
   - RULE-SET, Google, Google
   - RULE-SET, Telegram, Telegram
   - RULE-SET, Twitter, Telegram
-  - RULE-SET, Steam, 暴雪游戏
+  - RULE-SET, Steam, 游戏选择
   - RULE-SET, AI, OpenAI
   - RULE-SET, Emby, Netflix
   - RULE-SET, Spotify, Spotify
