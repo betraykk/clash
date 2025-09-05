@@ -120,7 +120,7 @@ rule-providers:
   CDN: {<<:*c, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/CDN.list}
   Proxy: {<<:*c, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Proxy.list}
   Direct: {<<:*c, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Direct.list}
-  China: {<<: *c, path: ./rules/China.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Lan.list}
+  lan: {<<: *c, path: ./rules/China.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Lan.list}
 
 rules:
   - RULE-SET,AD,广告拦截
@@ -141,7 +141,6 @@ rules:
   - RULE-SET,CDN,兜底分流
   - RULE-SET,Proxy,兜底分流
   - RULE-SET,Direct,DIRECT
-  - RULE-SET,China,DIRECT
   - GEOSITE,onedrive,微软服务
   - GEOSITE,github,微软服务
   - GEOSITE,microsoft,微软服务
