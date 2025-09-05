@@ -1,100 +1,17 @@
-# mihomo 配置
-# 日期：2025-07-06 18:25:00
-# 配置作者：https://t.me/iKeLee
-# 适用版本：所有使用 mihomo 核心的程序
-port: 7890
-socks-port: 7891
-mixed-port: 7892
-redir-port: 7893
-tproxy-port: 7894
+# Author:https://github.com/Repcz
+# TG:https://t.me/QVQ_Channel
+#
+# 官方文档：https://wiki.metacubex.one/
+#
+# 以 '#' 或 '//' 开头的配置文件行为注释行
+#
+# Mihomo Version ≥ 1.8.10
+#
+# 最后更新时间: 2025-09-04 19:30
+#
+# ================
 
-unified-delay: true
-geodata-mode: false
-geodata-loader: standard
-geo-auto-update: true
-geo-update-interval: 24
-tcp-concurrent: true
-find-process-mode: strict
-global-client-fingerprint: chrome
-
-allow-lan: true
-mode: rule
-log-level: info
-ipv6: true
-udp: true
-
-external-controller: 0.0.0.0:9090
-# external-ui: ui
-# external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
-
-geox-url:
-  # geoip: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat'
-  # geosite: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat'
-  mmdb: 'https://geodata.kelee.one/Country-Masaiki.mmdb'
-  asn: 'https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb'
-
-profile:
-  store-selected: true
-  store-fake-ip: true
-
-sniffer:
-  enable: true
-  force-dns-mapping: true
-  parse-pure-ip: true
-  override-destination: true
-  sniff:
-    HTTP:
-      ports: [80, 8080-8880]
-      override-destination: true
-    TLS:
-      ports: [443, 8443]
-    QUIC:
-      ports: [443, 8443]
-  force-domain:
-    - +.v2ex.com
-
-  skip-domain:
-    - Mijia Cloud
-
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - any:53
-  auto-route: true
-  auto-detect-interface: true
-
-# P2P下载端口
-listeners:
-- name: socks5-in-1
-  type: socks
-  port: 10808
-  listen: 0.0.0.0
-  udp: true
-  users: []
-  proxy: DIRECT
-
-dns:
-  enable: true
-  prefer-h3: true
-  listen: 0.0.0.0:1053
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
-  fake-ip-filter:
-    - "*"
-    - +.lan
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 114.114.114.114
-    - 8.8.8.8
-    - 1.1.1.1
-  nameserver:
-    - https://223.5.5.5/dns-query
-
-
-# 锚点 - 节点订阅
+p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://1.1.1.1/generate_204, interval: 1800, timeout: 5000}}
 proxy-providers:
   Subscribe: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
     url: https://liangxin.xyz/api/v1/liangxin?OwO=43c0ad891397e72f844ad78a8b3825ac
@@ -105,6 +22,40 @@ proxy-providers:
   #Subscribe2: {url: http://your-service-provider, <<: *p}
   #Subscribe3: {url: http://your-service-provider, <<: *p}
   #Subscribe4: {url: http://your-service-provider, <<: *p}
+
+mixed-port: 7893
+tcp-concurrent: true
+allow-lan: true
+ipv6: false
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+find-process-mode: strict
+
+geodata-mode: true
+geox-url:
+  #geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+  #geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
+  asn: "https://mirror.ghproxy.com/https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+  
+profile: { store-selected: true, store-fake-ip: false }
+sniffer: { enable: true, sniff: { HTTP: { ports: [80], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack: [any:53]
+        
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: :1053
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ['*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
+  nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114, 8.8.8.8, 1.1.1.1]
+
 
 # 锚点 - 节点筛选组
 FilterHK: &FilterHK '^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$'
