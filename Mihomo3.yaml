@@ -104,9 +104,9 @@ rule-providers:
   AD: {<<: *c, path: ./rules/AD.list, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Reject.list}
   Apple: {<<: *c, path: ./rules/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AppleCN.list}
   YouTube: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/YouTube.list}
-  Github: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/YouTube.list}
-  OneDrive: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/YouTube.list}
-  Microsoft: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/YouTube.list}
+  Github: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Github.list}
+  OneDrive: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/OneDrive.list}
+  Microsoft: {<<: *c, path: ./rules/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Microsoft.list}
   Google: {<<: *c, path: ./rules/Google.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Google.list}
   Telegram: {<<: *c, path: ./rules/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Telegram.list}
   Twitter: {<<: *c, path: ./rules/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Twitter.list}
