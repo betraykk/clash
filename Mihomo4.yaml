@@ -69,6 +69,7 @@ proxy-groups:
   - {name: 手动切换, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://github.com/shindgewongxj/WHATSINmihomo/raw/main/icon/applesafari.png}
   - {name: Spotify, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png}
   - {name: YouTube, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
+  - {name: 苹果服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png}
   - {name: 微软服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png}
   - {name: Google, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png}
   - {name: Telegram, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png}
@@ -107,8 +108,8 @@ rule-providers:
 
 rules:
   - RULE-SET,AD,广告拦截
-  - RULE-SET,AppleCN,DIRECT
-  - RULE-SET,AppleProxy,香港节点
+  - RULE-SET,AppleCN,苹果服务
+  - RULE-SET,AppleProxy,兜底分流
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Github,微软服务
   - RULE-SET,OneDrive,微软服务
