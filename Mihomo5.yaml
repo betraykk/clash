@@ -198,8 +198,8 @@ rule-providers:
 
   LAN:
     <<: *RuleProviders
-    path: './rules/Lan.yaml'
-    url: 'https://kelee.one/Tool/Clash/Rule/LAN_SPLITTER.yaml'
+    path: './rules/Lan.list'
+    url: 'https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Lan.list'
 
   AD:
     <<: *RuleProviders
