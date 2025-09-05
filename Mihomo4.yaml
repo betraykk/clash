@@ -85,6 +85,7 @@ proxy-groups:
   - {name: 台湾节点, <<: *url-test, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Taiwan.png}
 
 rule-providers:
+  Direct: {<<: *c, path: ./rules/Direct.list, url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Direct.list}
   AD: {<<: *c, path: ./rules/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list}
   AppleCN: {<<: *c, path: ./rules/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AppleCN.list}
   AppleProxy: {<<: *c, path: ./rules/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/mihomo/Rules/AppleServers.list}
