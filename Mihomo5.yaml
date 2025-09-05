@@ -146,7 +146,6 @@ rule-providers:
     path: './rules/Direct.list'
     url: 'https://github.com/Repcz/Tool/raw/X/mihomo/Rules/Direct.list'
 
-
   LAN:
     <<: *RuleProviders
     path: './rules/Lan.list'
