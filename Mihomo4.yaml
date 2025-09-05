@@ -128,6 +128,6 @@ rules:
   - RULE-SET,Proxy,兜底分流
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
-  - GEOIP,lan,DIRECT
-  - GEOIP,cn,DIRECT
+  - GEOIP,Lan,DIRECT
+  - GEOIP,CN,DIRECT
   - MATCH,兜底分流
